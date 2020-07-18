@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.carosle-display{
+  height:600px;
+  width: 100%;
+
+
+}
