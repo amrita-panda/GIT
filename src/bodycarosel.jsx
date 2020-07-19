@@ -5,6 +5,8 @@ import './App.css';
 import map1 from './assets/image/map1.jpg'
 import map2 from './assets/image/map2.jpg';
 import map3 from './assets/image/map3.jpg';
+import CardDisplay from './cardDisplay';
+import {Row,Col} from 'react-bootstrap';
 
 
 class BodyCarosoul extends React.Component{
@@ -58,6 +60,11 @@ class BodyCarosoul extends React.Component{
         return(
            <div>
                {this.ControlledCarousel()}
+               <div className='mt-4'>
+                 <Row>
+               <CardDisplay></CardDisplay>
+               </Row>
+               </div>
            </div>        )
     }
 }
